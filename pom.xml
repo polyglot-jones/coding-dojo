@@ -21,11 +21,13 @@
     </properties>
 
     <repositories>
+<!--
         <repository>
             <id>scala-tools.org</id>
             <name>Scala-tools Maven2 Repository</name>
             <url>http://scala-tools.org/repo-releases/</url>
         </repository>
+-->
         <repository>
             <id>pics</id>
             <url>http://maven.picsauditing.com</url>
@@ -115,7 +117,7 @@
         <!-- Language Support -->
         <dependency>
             <groupId>org.scala-lang</groupId>
-            <artifactId>scala-library</artifactId>
+            <artifactId>scala-compiler</artifactId>
             <version>${scala.version}</version>
         </dependency>
 <!--
